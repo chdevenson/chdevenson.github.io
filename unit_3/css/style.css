@@ -1,0 +1,20 @@
+body {
+	background-color: #FFFAB4;
+}
+
+h1,nav,#slogan,#announcement{
+	text-align: center;
+	font-family: Arial;
+}
+
+nav{
+	font-weight: bold;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+img { 
+	margin: 0 auto; display: block
+} 
