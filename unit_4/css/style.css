@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	background-color: #FFFAB4;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+nav,#slogan,#announcement{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav{
+	font-weight: bold;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+img { 
+	margin: 0 auto; display: block
+} 
