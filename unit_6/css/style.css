@@ -36,13 +36,29 @@ header div{
 	padding: 20px;
 	float: left;
 }
+<<<<<<< Updated upstream
+=======
+
+nav {
+	padding: 20px;
+	float: left;
+}
+
+aside {
+	
+}
+
+article {
+
+}
+
+>>>>>>> Stashed changes
 footer {
 	padding: 20px;
 	text-align: center;
 }
 
 div, section {
-	
 	padding: 20px;
 }
 
