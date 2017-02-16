@@ -1,48 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+* {	margin:0; padding:0; box-sizing:border-box;}
 body {
 	background-color: #FFFAB4;
+	color:#333;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 }
-
-nav,#slogan,#announcement{
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-}
-
 nav{
 	font-weight: bold;
+	float:right;
+	margin-top: 1.5em;
 }
-
+nav a {
+	color:inherit;
+	display:inline-block;
+	padding:1em;
+	text-decoration:none;
+}
 #slogan{
 	font-style: italic;
 }
 
-img { 
-	margin: 0 auto; display: block
+img {
+	width: 33.33%;
+	float:left;
+	padding: 1em;
 } 
 
-header {
+header div{
 	padding: 20px;
+	float: left;
 }
-
-nav {
-	padding: 20px;
-}
-
-aside {
-	
-}
-
-article {
-
-}
-
 footer {
 	padding: 20px;
 	text-align: center;
@@ -51,18 +44,6 @@ footer {
 div, section {
 	
 	padding: 20px;
-}
-
-#left {
-	padding: 20px;
-	float: left;
-	width: 46%;
-}
-
-#right{
-	padding: 20px;
-	float: right;
-	width: 46%;
 }
 
 .clearfix:after {
