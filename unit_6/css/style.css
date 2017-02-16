@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	background-color: #FFFAB4;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+nav,#slogan,#announcement{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav{
+	font-weight: bold;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+img { 
+	margin: 0 auto; display: block
+} 
+
+header {
+	padding: 20px;
+}
+
+nav {
+	padding: 20px;
+}
+
+aside {
+	
+}
+
+article {
+
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+div, section {
+	
+	padding: 20px;
+}
+
+#left {
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+
+#right{
+	padding: 20px;
+	float: right;
+	width: 46%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
